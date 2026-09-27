@@ -1,7 +1,7 @@
 # install.ps1 - bkit-codex project installer for Windows
 # Installs bkit-codex into the current project directory or globally.
 # Usage:
-#   irm https://raw.githubusercontent.com/popup-studio-ai/bkit-codex/main/install.ps1 | iex
+#   irm https://raw.githubusercontent.com/ww-w-ai/bkit-codex/main/install.ps1 | iex
 #   .\install.ps1 [-Global] [-Uninstall] [-Version] [-Force] [-Help]
 
 param(
@@ -14,7 +14,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-$Repo = "popup-studio-ai/bkit-codex"
+$Repo = "ww-w-ai/bkit-codex"
 $BkitVersion = "1.0.1"
 
 # When piped via iex, params aren't available. Detect via args:
@@ -96,7 +96,7 @@ Options:
 
 Examples:
   # Project-level install (default)
-  irm https://raw.githubusercontent.com/popup-studio-ai/bkit-codex/main/install.ps1 | iex
+  irm https://raw.githubusercontent.com/ww-w-ai/bkit-codex/main/install.ps1 | iex
 
   # Global install
   .\install.ps1 -Global

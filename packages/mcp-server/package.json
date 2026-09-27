@@ -12,7 +12,7 @@
     "test:philosophy": "node --test tests/*philosophy*.test.js tests/philosophy/**/*.test.js"
   },
   "keywords": ["bkit", "codex", "mcp", "pdca"],
-  "author": "POPUP STUDIO PTE. LTD.",
+  "author": "DubDubDub Corp.",
   "license": "Apache-2.0",
   "engines": { "node": ">=18.0.0" }
 }

@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Codex CLI](https://img.shields.io/badge/Codex%20CLI-v0.100.0+-blue.svg)](https://github.com/openai/codex)
 [![Version](https://img.shields.io/badge/Version-1.0.1-green.svg)](CHANGELOG.md)
-[![Author](https://img.shields.io/badge/Author-POPUP%20STUDIO-orange.svg)](https://popupstudio.ai)
+[![Author](https://img.shields.io/badge/Author-DubDubDub%20Corp-orange.svg)](https://ww-w.ai)
 
 > **PDCA methodology + Context Engineering for AI-native development**
 
@@ -154,7 +154,7 @@ bkit-codex/
 
 ## Quick Start
 
-> **Note**: bkit-codex is designed for **OpenAI Codex CLI**. For Claude Code, see [bkit-claude-code](https://github.com/popup-studio-ai/bkit-claude-code). For Gemini CLI, see [bkit-gemini](https://github.com/popup-studio-ai/bkit-gemini).
+> **Note**: bkit-codex is designed for **OpenAI Codex CLI**. For Claude Code, see [bkit-claude-code](https://github.com/ww-w-ai/bkit-claude-code). For Gemini CLI, see [bkit-gemini](https://github.com/ww-w-ai/bkit-gemini).
 
 ### Prerequisites
 
@@ -167,20 +167,20 @@ bkit-codex/
 #### Unix / macOS (Recommended)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/popup-studio-ai/bkit-codex/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ww-w-ai/bkit-codex/main/install.sh | bash
 ```
 
 #### Windows (PowerShell)
 
 ```powershell
-irm https://raw.githubusercontent.com/popup-studio-ai/bkit-codex/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/ww-w-ai/bkit-codex/main/install.ps1 | iex
 ```
 
 #### Manual Installation
 
 ```bash
 # 1. Clone into project
-git clone --depth 1 https://github.com/popup-studio-ai/bkit-codex.git .bkit-codex
+git clone --depth 1 https://github.com/ww-w-ai/bkit-codex.git .bkit-codex
 
 # 2. Link skills
 mkdir -p .agents/skills
@@ -435,7 +435,7 @@ required = true
 
 ## Relationship to bkit-claude-code
 
-bkit-codex is a port of [bkit-claude-code](https://github.com/popup-studio-ai/bkit-claude-code), adapted for OpenAI Codex CLI compatibility. Key differences:
+bkit-codex is a port of [bkit-claude-code](https://github.com/ww-w-ai/bkit-claude-code), adapted for OpenAI Codex CLI compatibility. Key differences:
 
 | Aspect | bkit-claude-code | bkit-codex |
 |--------|-----------------|------------|
@@ -512,7 +512,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ## License
 
-Copyright 2024-2026 POPUP STUDIO PTE. LTD.
+Copyright 2024-2026 DubDubDub Corp.
 
 Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for details.
 
@@ -520,9 +520,9 @@ Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for detai
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/popup-studio-ai/bkit-codex/issues)
-- **Email**: contact@popupstudio.ai
+- **Issues**: [GitHub Issues](https://github.com/ww-w-ai/bkit-codex/issues)
+- **Email**: biz@ww-w.ai
 
 ---
 
-Made with AI by [POPUP STUDIO](https://popupstudio.ai)
+Made with AI by [DubDubDub Corp.](https://ww-w.ai)
