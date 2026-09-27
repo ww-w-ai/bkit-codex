@@ -2,12 +2,12 @@
 # install.sh - bkit-codex project installer
 # Installs bkit-codex into the current project directory or globally.
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/popup-studio-ai/bkit-codex/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/ww-w-ai/bkit-codex/main/install.sh | bash
 #   ./install.sh [--global] [--uninstall] [--version] [--help]
 
 set -euo pipefail
 
-REPO="popup-studio-ai/bkit-codex"
+REPO="ww-w-ai/bkit-codex"
 BKIT_VERSION="1.0.1"
 
 # ── Color helpers ──────────────────────────────────────────────────────────────
@@ -79,7 +79,7 @@ Options:
 
 Examples:
   # Project-level install (default)
-  curl -fsSL https://raw.githubusercontent.com/popup-studio-ai/bkit-codex/main/install.sh | bash
+  curl -fsSL https://raw.githubusercontent.com/ww-w-ai/bkit-codex/main/install.sh | bash
 
   # Global install
   ./install.sh --global

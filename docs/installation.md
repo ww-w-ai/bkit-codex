@@ -15,13 +15,13 @@ Install bkit-codex into a specific project. Best for teams working on a single p
 **Unix/Mac**:
 ```bash
 cd your-project
-curl -fsSL https://raw.githubusercontent.com/popup-studio-ai/bkit-codex/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ww-w-ai/bkit-codex/main/install.sh | bash
 ```
 
 **Windows**:
 ```powershell
 cd your-project
-irm https://raw.githubusercontent.com/popup-studio-ai/bkit-codex/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/ww-w-ai/bkit-codex/main/install.ps1 | iex
 ```
 
 **What the installer does**:
@@ -52,7 +52,7 @@ Install bkit-codex globally so it applies to all projects. Best for individual d
 
 ```bash
 # Clone to home directory
-git clone --depth 1 https://github.com/popup-studio-ai/bkit-codex.git ~/.bkit-codex
+git clone --depth 1 https://github.com/ww-w-ai/bkit-codex.git ~/.bkit-codex
 
 # Link skills globally
 mkdir -p ~/.agents/skills
